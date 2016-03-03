@@ -1,4 +1,4 @@
-/* line 1, /Users/User/Documents/vmd142/quick/scss/_scaffolding.scss */
+/* line 1, ../scss/_scaffolding.scss */
 body {
   font-family: "Lato", sans-serif;
   font-size: 14px;
@@ -7,17 +7,17 @@ body {
   background-color: white;
 }
 
-/* line 9, /Users/User/Documents/vmd142/quick/scss/_scaffolding.scss */
+/* line 9, ../scss/_scaffolding.scss */
 a {
   color: #333333;
 }
-/* line 13, /Users/User/Documents/vmd142/quick/scss/_scaffolding.scss */
+/* line 13, ../scss/_scaffolding.scss */
 a:hover, a:focus {
   color: #25cbf5;
   text-decoration: none;
 }
 
-/* line 5, /Users/User/Documents/vmd142/quick/scss/_typography.scss */
+/* line 5, ../scss/_typography.scss */
 h1,
 h2,
 h3,
@@ -28,33 +28,33 @@ h4 {
   color: #333333;
 }
 
-/* line 13, /Users/User/Documents/vmd142/quick/scss/_typography.scss */
+/* line 13, ../scss/_typography.scss */
 h1,
 h2 {
   text-transform: uppercase;
 }
 
-/* line 17, /Users/User/Documents/vmd142/quick/scss/_typography.scss */
+/* line 17, ../scss/_typography.scss */
 h1 {
   font-size: 4em;
 }
 
-/* line 20, /Users/User/Documents/vmd142/quick/scss/_typography.scss */
+/* line 20, ../scss/_typography.scss */
 h2 {
   font-size: 2em;
 }
 
-/* line 23, /Users/User/Documents/vmd142/quick/scss/_typography.scss */
+/* line 23, ../scss/_typography.scss */
 h3 {
   font-size: 1.3em;
 }
 
-/* line 26, /Users/User/Documents/vmd142/quick/scss/_typography.scss */
+/* line 26, ../scss/_typography.scss */
 h4 {
   font-size: 1em;
 }
 
-/* line 33, /Users/User/Documents/vmd142/quick/scss/_typography.scss */
+/* line 33, ../scss/_typography.scss */
 .home-text {
   color: white;
   text-transform: uppercase;
@@ -65,7 +65,7 @@ h4 {
   font-weight: 200;
 }
 
-/* line 43, /Users/User/Documents/vmd142/quick/scss/_typography.scss */
+/* line 43, ../scss/_typography.scss */
 .home-h1 {
   color: #25cbf5;
   font-size: 2.5em;
@@ -74,47 +74,47 @@ h4 {
   margin-bottom: 40px;
 }
 
-/* line 50, /Users/User/Documents/vmd142/quick/scss/_typography.scss */
+/* line 50, ../scss/_typography.scss */
 .home-h1 > span {
   color: white;
 }
 
-/* line 54, /Users/User/Documents/vmd142/quick/scss/_typography.scss */
+/* line 54, ../scss/_typography.scss */
 .lead {
   letter-spacing: 1px;
   margin-bottom: 60px;
 }
 
 @media (min-width: 768px) {
-  /* line 61, /Users/User/Documents/vmd142/quick/scss/_typography.scss */
+  /* line 61, ../scss/_typography.scss */
   .home-h1 {
     font-size: 4.5em;
   }
 }
-/* line 1, /Users/User/Documents/vmd142/quick/scss/_navbar.scss */
+/* line 1, ../scss/_navbar.scss */
 .navbar-default {
   background-color: white;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
 }
 
-/* line 7, /Users/User/Documents/vmd142/quick/scss/_navbar.scss */
+/* line 7, ../scss/_navbar.scss */
 .navbar-default .navbar-brand {
   font-weight: 700;
   color: #333333;
   font-size: 1.5em;
 }
 
-/* line 13, /Users/User/Documents/vmd142/quick/scss/_navbar.scss */
+/* line 13, ../scss/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
   color: #333333;
 }
-/* line 16, /Users/User/Documents/vmd142/quick/scss/_navbar.scss */
+/* line 16, ../scss/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #25cbf5;
 }
 
-/* line 1, /Users/User/Documents/vmd142/quick/scss/_buttons.scss */
+/* line 1, ../scss/_buttons.scss */
 .btn-theme, .btn-dark, .btn-cta, .btn-cta-o {
   font-family: "Montserrat", sans-serif;
   font-size: 0.8em;
@@ -128,41 +128,41 @@ h4 {
   transition: all 200ms ease-in;
 }
 
-/* line 13, /Users/User/Documents/vmd142/quick/scss/_buttons.scss */
+/* line 13, ../scss/_buttons.scss */
 .btn-dark {
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(0, 0, 0, 0.3);
   color: #666666;
 }
-/* line 20, /Users/User/Documents/vmd142/quick/scss/_buttons.scss */
+/* line 20, ../scss/_buttons.scss */
 .btn-dark:hover, .btn-dark:focus {
   background: #000;
   color: white;
 }
 
-/* line 26, /Users/User/Documents/vmd142/quick/scss/_buttons.scss */
+/* line 26, ../scss/_buttons.scss */
 .btn-cta {
   background-color: #25cbf5;
   color: white;
 }
-/* line 32, /Users/User/Documents/vmd142/quick/scss/_buttons.scss */
+/* line 32, ../scss/_buttons.scss */
 .btn-cta:hover, .btn-cta:focus {
   background-color: #0ab2dd;
   color: white;
 }
 
-/* line 38, /Users/User/Documents/vmd142/quick/scss/_buttons.scss */
+/* line 38, ../scss/_buttons.scss */
 .btn-cta-o {
   color: white;
   border: 1px solid white;
 }
-/* line 44, /Users/User/Documents/vmd142/quick/scss/_buttons.scss */
+/* line 44, ../scss/_buttons.scss */
 .btn-cta-o:hover, .btn-cta-o:focus {
   background-color: white;
   color: #333333;
 }
 
-/* line 1, /Users/User/Documents/vmd142/quick/scss/_forms.scss */
+/* line 1, ../scss/_forms.scss */
 .form-control {
   border-radius: 0;
   margin-bottom: 30px;
@@ -172,74 +172,74 @@ h4 {
   transition: all 200ms ease-in;
 }
 
-/* line 11, /Users/User/Documents/vmd142/quick/scss/_forms.scss */
+/* line 11, ../scss/_forms.scss */
 label {
   font-weight: 20px;
 }
 
-/* line 15, /Users/User/Documents/vmd142/quick/scss/_forms.scss */
+/* line 15, ../scss/_forms.scss */
 .form-control:focus {
   background: #f4f5f2;
   border-color: #666666;
 }
 
-/* line 1, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 1, ../scss/_other.scss */
 #home {
   background-color: #333333;
   padding: 40px 0;
 }
 
-/* line 6, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 6, ../scss/_other.scss */
 #cta-1 {
   background-color: #f4f5f2;
   padding: 40px 0;
 }
 
-/* line 11, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 11, ../scss/_other.scss */
 #testimonials {
   background-color: #333333;
 }
 
-/* line 16, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 16, ../scss/_other.scss */
 .author {
   color: #25cbf5;
   font-size: 1.1em;
 }
 
-/* line 22, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 22, ../scss/_other.scss */
 #cta-2 {
   background-color: #25cbf5;
   padding: 40px 0;
 }
 
-/* line 27, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 27, ../scss/_other.scss */
 #services {
   background-color: #333333;
 }
 
-/* line 31, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 31, ../scss/_other.scss */
 #cta-3 {
   background-color: #333333;
   padding: 40px 0;
 }
 
-/* line 36, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 36, ../scss/_other.scss */
 #footer {
   background-color: #333333;
 }
 
-/* line 42, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 42, ../scss/_other.scss */
 .section-padding {
   padding-top: 60px;
   padding-bottom: 50px;
 }
 
-/* line 47, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 47, ../scss/_other.scss */
 .section-heading {
   margin-bottom: 40px;
 }
 
-/* line 55, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 55, ../scss/_other.scss */
 .color-reverse,
 .color-reverse h2,
 .color-reverse h3,
@@ -247,13 +247,13 @@ label {
   color: white;
 }
 
-/* line 60, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 60, ../scss/_other.scss */
 .color-reverse .icon:before,
 .color-reverse .icon:after {
   border-bottom-color: white;
 }
 
-/* line 65, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 65, ../scss/_other.scss */
 .icon {
   display: inline-block;
   font-size: 1.3em;
@@ -264,7 +264,7 @@ label {
   color: #25cbf5;
 }
 
-/* line 76, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 76, ../scss/_other.scss */
 .icon:before,
 .icon:after {
   display: inline-block;
@@ -275,28 +275,28 @@ label {
   width: 50px;
 }
 
-/* line 85, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 85, ../scss/_other.scss */
 .icon:before {
   left: 0;
 }
 
-/* line 89, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 89, ../scss/_other.scss */
 .icon:after {
   right: 0;
 }
 
-/* line 93, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 93, ../scss/_other.scss */
 .icon-bg {
   color: white;
 }
 
-/* line 98, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 98, ../scss/_other.scss */
 .icon-bg:before,
 .icon-bg:after {
   border-bottom-color: white;
 }
 
-/* line 103, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 103, ../scss/_other.scss */
 .about-col .fa {
   width: 90px;
   height: 90px;
@@ -306,13 +306,13 @@ label {
   background-color: #f4f5f2;
 }
 
-/* line 112, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 112, ../scss/_other.scss */
 .services-col {
   color: #25cbf5;
   text-align: center;
 }
 
-/* line 118, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 118, ../scss/_other.scss */
 .services-col h3 {
   color: #25cbf5;
   margin-top: 0;
@@ -321,7 +321,7 @@ label {
   font-size: 1.75em;
 }
 
-/* line 126, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 126, ../scss/_other.scss */
 .services-col p {
   color: #666666;
   letter-spacing: 1px;
@@ -329,7 +329,7 @@ label {
   line-height: 2;
 }
 
-/* line 133, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 133, ../scss/_other.scss */
 .services-col .fa {
   width: 70px;
   height: 70px;
@@ -341,12 +341,12 @@ label {
   margin-bottom: 10px;
 }
 
-/* line 145, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 145, ../scss/_other.scss */
 .contact-hours .fa {
   color: #25cbf5;
 }
 
-/* line 149, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 149, ../scss/_other.scss */
 .social-channels .fa {
   width: 40px;
   height: 40px;
@@ -357,19 +357,19 @@ label {
   margin-bottom: 10px;
 }
 
-/* line 160, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 160, ../scss/_other.scss */
 .item-img-wrap {
   position: relative;
   text-align: center;
   overflow: hidden;
 }
 
-/* line 166, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 166, ../scss/_other.scss */
 .item-img-wrap img {
   transition: all 200ms linear;
 }
 
-/* line 169, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 169, ../scss/_other.scss */
 .item-img-overlay {
   position: absolute;
   width: 100%;
@@ -378,7 +378,7 @@ label {
   top: 0;
 }
 
-/* line 176, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 176, ../scss/_other.scss */
 .item-img-overlay span {
   width: 100%;
   height: 100%;
@@ -390,36 +390,36 @@ label {
   transition: opacity 250ms linear;
 }
 
-/* line 186, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 186, ../scss/_other.scss */
 .item-img-wrap:hover .item-img-overlay span {
   opacity: 1;
 }
 
-/* line 189, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 189, ../scss/_other.scss */
 .item-img-wrap:hover img {
   transform: scale(1.1);
 }
 
-/* line 194, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 194, ../scss/_other.scss */
 .about-col, .team-col, .services-col, .portfolio-col, .facts-col, and .blog-col {
   margin-bottom: 40px;
 }
 
-/* line 199, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 199, ../scss/_other.scss */
 .blog-col span {
   margin-bottom: 40px;
 }
 
-/* line 203, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 203, ../scss/_other.scss */
 .blog-col span {
   color: #666666;
-  font-size: 9em;
+  font-size: 0.9em;
   display: inline-block;
   margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
-  /* line 212, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+  /* line 212, ../scss/_other.scss */
   .services-col {
     text-align: left;
   }
