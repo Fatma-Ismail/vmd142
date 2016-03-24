@@ -17,6 +17,12 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+/* line 20, /Users/User/Documents/vmd142/quick/scss/_scaffolding.scss */
+html,
+body {
+  height: 100%;
+}
+
 /* line 5, /Users/User/Documents/vmd142/quick/scss/_typography.scss */
 h1,
 h2,
@@ -304,15 +310,23 @@ label {
   color: #666666;
   border-radius: 50%;
   background-color: #f4f5f2;
+  transition: 0.7s ease-in-out;
 }
 
-/* line 105, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 106, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+.about-col:hover .fa {
+  background-color: #25cbf5;
+  color: white;
+  transform: rotateY(360deg);
+}
+
+/* line 114, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .services-col {
   color: #25cbf5;
   text-align: center;
 }
 
-/* line 110, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 119, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .services-col h3 {
   color: #25cbf5;
   margin-top: 0;
@@ -321,7 +335,7 @@ label {
   font-size: 1.75em;
 }
 
-/* line 118, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 127, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .services-col p {
   color: #666666;
   letter-spacing: 1px;
@@ -329,7 +343,7 @@ label {
   line-height: 2;
 }
 
-/* line 125, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 134, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .services-col .fa {
   width: 70px;
   height: 70px;
@@ -339,14 +353,22 @@ label {
   background-color: #25cbf5;
   border-radius: 35px;
   margin-bottom: 10px;
+  transition: 0.7s ease-in-out;
 }
 
-/* line 136, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 146, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+.services-col:hover .fa {
+  background-color: #25cbf5;
+  color: white;
+  transform: rotateY(360deg);
+}
+
+/* line 153, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .contact-hours .fa {
   color: #25cbf5;
 }
 
-/* line 140, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 157, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .social-channels .fa {
   width: 40px;
   height: 40px;
@@ -357,19 +379,19 @@ label {
   margin-bottom: 10px;
 }
 
-/* line 150, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 167, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .item-img-wrap {
   position: relative;
   text-align: center;
   overflow: hidden;
 }
 
-/* line 156, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 173, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .item-img-wrap img {
   transition: all 200ms linear;
 }
 
-/* line 160, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 177, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .item-img-overlay {
   position: absolute;
   width: 100%;
@@ -378,7 +400,7 @@ label {
   top: 0;
 }
 
-/* line 168, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 185, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .item-img-overlay span {
   width: 100%;
   height: 100%;
@@ -390,17 +412,17 @@ label {
   transition: opacity 250ms linear;
 }
 
-/* line 179, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 196, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .item-img-wrap:hover .item-img-overlay span {
   opacity: 1;
 }
 
-/* line 183, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 200, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .item-img-wrap:hover img {
   transform: scale(1.1);
 }
 
-/* line 192, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 209, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .about-col,
 .team-col,
 .services-col,
@@ -410,12 +432,12 @@ and .blog-col {
   margin-bottom: 40px;
 }
 
-/* line 196, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 213, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .blog-col span {
   margin-bottom: 40px;
 }
 
-/* line 200, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 217, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .blog-col span {
   color: #666666;
   font-size: 0.9em;
@@ -424,12 +446,12 @@ and .blog-col {
 }
 
 @media (min-width: 768px) {
-  /* line 208, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+  /* line 225, /Users/User/Documents/vmd142/quick/scss/_other.scss */
   .services-col {
     text-align: left;
   }
 }
-/* line 213, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 230, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .scrollToTop {
   width: 40px;
   height: 40px;
@@ -451,14 +473,14 @@ and .blog-col {
   transform: all 0.3s;
 }
 
-/* line 232, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 249, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .scrollToTop:hover {
   text-decoration: none;
   opacity: 1;
   color: white;
 }
 
-/* line 238, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 255, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .parallax {
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -468,7 +490,7 @@ and .blog-col {
   background-attachment: fixed;
 }
 
-/* line 247, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 264, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .parallax-overlay {
   position: absolute;
   left: 0;
@@ -480,7 +502,7 @@ and .blog-col {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 258, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 275, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 #home {
   background-image: url(../img/showcase-1.jpg);
   padding: 160px 0;
@@ -488,25 +510,25 @@ and .blog-col {
   height: 100%;
 }
 
-/* line 265, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 282, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 #testimonials {
   background: url(../img/showcase-3.jpg);
   padding: 80px 0;
 }
 
-/* line 270, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 287, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 #services {
   background: url(../img/showcase-2.jpg);
   padding: 80px 0;
 }
 
-/* line 275, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 292, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 #facts {
   background: url(../img/showcase-5.jpg);
   padding: 80px 0;
 }
 
-/* line 281, /Users/User/Documents/vmd142/quick/scss/_other.scss */
+/* line 298, /Users/User/Documents/vmd142/quick/scss/_other.scss */
 .main-flex-slider {
   overflow: hidden;
 }
